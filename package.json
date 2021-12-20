@@ -2,7 +2,7 @@
   "name": "gnome-video-app-backend",
   "type": "module",
   "version": "1.0.0",
-  "description": "Gnome Video Creation App Backend",
+  "description": "Gnome Video Creation App Backend Api",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdulfatahi/gnome-video-app-backend.git"
+    "url": "git+https://github.com/abdulfatahi/gnome-video-api-backend.git"
   },
   "keywords": [
     "nodejs",
@@ -29,9 +29,9 @@
     "bcrypt"
   ],
   "bugs": {
-    "url": "https://github.com/abdulfatahi/gnome-video-app-backend/issues"
+    "url": "https://github.com/abdulfatahi/gnome-video-api-backend/issues"
   },
-  "homepage": "https://github.com/abdulfatahi/gnome-video-app-backend#readme",
+  "homepage": "https://github.com/abdulfatahi/gnome-video-api-backend#readme",
   "author": "Abdulfatahi Ishaq <abfatahi.iaf@gmail.com>",
   "license": "ISC",
   "devDependencies": {
