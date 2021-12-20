@@ -1,8 +1,8 @@
 {
-  "name": "Keyla-NodeJs-Starter-Template",
+  "name": "gnome-video-app-backend",
   "type": "module",
   "version": "1.0.0",
-  "description": "Keyla Official Starter Template for Nodejs Applications",
+  "description": "Gnome Video Creation App Backend",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Keyla-Technologies/Starter-Templates.git"
+    "url": "git+https://github.com/abdulfatahi/gnome-video-app-backend.git"
   },
   "keywords": [
     "nodejs",
@@ -29,10 +29,10 @@
     "bcrypt"
   ],
   "bugs": {
-    "url": "https://github.com/Keyla-Technologies/Starter-Templates/issues"
+    "url": "https://github.com/abdulfatahi/gnome-video-app-backend/issues"
   },
-  "homepage": "https://github.com/Keyla-Technologies/Starter-Templates#readme",
-  "author": "Somoye Ayotunde <somoye.ayotunde@gmail.com>",
+  "homepage": "https://github.com/abdulfatahi/gnome-video-app-backend#readme",
+  "author": "Abdulfatahi Ishaq <abfatahi.iaf@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.23.0",
