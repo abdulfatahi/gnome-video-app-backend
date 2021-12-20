@@ -1,0 +1,77 @@
+{
+  "name": "Keyla-NodeJs-Starter-Template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Keyla Official Starter Template for Nodejs Applications",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js",
+    "db:up": "sequelize-cli db:migrate",
+    "db:down": "sequelize-cli db:migrate:undo:all",
+    "seed:up": "sequelize-cli db:seed:all",
+    "seed:down": "sequelize-cli db:seed:undo:all",
+    "edit": "npm run db:down && npm run db:up && npm run seed:up && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keyla-Technologies/Starter-Templates.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "rest",
+    "api",
+    "postgresql",
+    "bcrypt"
+  ],
+  "bugs": {
+    "url": "https://github.com/Keyla-Technologies/Starter-Templates/issues"
+  },
+  "homepage": "https://github.com/Keyla-Technologies/Starter-Templates#readme",
+  "author": "Somoye Ayotunde <somoye.ayotunde@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.9"
+  },
+  "nodemonConfig": {
+    "restartable": "yes",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "1500",
+    "env": {
+      "NODE_ENV": "development"
+    }
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.26.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "express-validator": "^6.12.0",
+    "faker": "^5.5.3",
+    "handlebars": "^4.7.7",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgen": "^2.0.15",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "v-response": "^1.1.0",
+    "winston": "^3.3.3"
+  }
+}
